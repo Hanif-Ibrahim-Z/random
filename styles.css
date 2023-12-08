@@ -1,0 +1,286 @@
+body{
+    background-color: rgb(37, 193, 141);
+    cursor: default;
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+.container {
+    right: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+}
+.logo {
+    height: auto;
+    border-radius: 100%;
+    margin-left: 20px ;
+    border: 4px solid black;
+    margin-right: 40px;
+    width: 45px;
+    margin-top: 2px;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.logo:hover{
+    opacity: 1;
+}
+.background h1{
+    padding-top: 45px;
+    font-size: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    padding-bottom: 0%;
+    text-shadow: 2px 1px rgba(138, 138, 138, 0.495);
+}
+.background p{
+    align-self: center ;
+    margin-top: -50px;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    size: 20px;
+}
+.innov{
+    align-self: center;
+    background:rgba(0, 0, 0, 0.322) 20px; 
+}
+.background{
+    background-image: url(images/background.jpg);
+    padding-top: 60px;
+    padding-left: 0;
+    height: 350px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-attachment: fixed;
+}
+.background img{
+    display: flex;
+    border: black solid 3px;
+    border-radius: 100%;
+    height: 50px;
+    width: auto;
+}
+.login{
+    display: flex;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 19px;
+    float: right;
+    border:rgba(12, 255, 174, 0.482);
+    border-radius: 5px;
+    background-color: rgba(12, 255, 174, 0.482);
+    width: 50px;
+    height: 20px;
+    transition: 0.2s;
+}
+.log-in{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-self: center;
+    padding-left: 5px;
+    color: azure;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login:hover{
+    margin-top: 14px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(10, 219, 149);
+    box-shadow: 0 2px 2px 0 rgb(8, 147, 101);
+}
+.line{
+    margin-top: 10px;
+    width: 100%;
+    height: 9px;
+    background: rgb(0, 106, 71);
+}
+main{
+    height: 100em;
+    background: white;
+    margin-right: -11px;
+    margin-left: -11px;
+    margin-top: -21px;
+}
+.greet{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1.greet{
+    padding-top: 16px;
+    size: 20px;
+}
+p.greet{
+    margin-top: -20px;
+}
+.mains{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+.main-icon{
+    text-decoration: none;
+}
+.class-icon{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgba(240, 255, 255, 0);
+    display: flex;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.class-icon:hover{ 
+    transform: translate(0px, -40px) scale(1.04);
+    animation-direction: alternate;
+    opacity: 0.9;
+    box-shadow: 12px 12px rgba(61, 61, 61, 0.502);
+    color: azure;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.first{
+    background-image:url(images/computering.jpg) ;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.second{
+    background-image:url(images/servers.jpg) ;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+.third{
+    background-image:url(images/motherboard.jpg) ;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+.fourth{
+    background-image:url(images/gamers.jpg) ;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.fifth{
+    background-image:url(images/ai-generated-8178076_1920.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sixth{
+    background-image:url(images/leyre-71SHXwBLp5w-unsplash\(1\).jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.desc{
+    margin-left: 45px;
+    height: 400px;
+    width: 100%;
+    padding-top: 150px;
+}
+.desc h1{
+    text-shadow: black 2px 2px 2px 2px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: solid rgba(86, 49, 1, 0.87) 5px;
+    border-radius: 4px;
+    height: 60px;
+    width: 80%;
+}
+.platform{
+    padding-top: -30px;
+    background-color: rgba(255, 192, 114, 0.322);
+    border: solid inherit 2px;
+    border-radius: 4px;
+    width: 90%;
+    height: 400px;
+}
+.image-show img{
+    border-radius: 10px;
+    border: solid azure 5px;
+    margin-top: 34px;
+    width: 200px;
+    height: 320px;
+    margin-left: 20px;
+}
+.image-show{
+    
+    opacity: 1;
+    margin-left: -940px;
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: 0.4s;
+}
+.image-show-text{
+    margin-top: 140px;
+}
+
+.image-show-text-container{
+    overflow: hidden;
+    height: 320px;
+    width: 200px;
+    opacity: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    transition: 0.4s;
+    
+}
+.image-show-text-container:hover{
+    opacity: 1;
+}
+.text{
+    margin-top: -326px;
+    height: auto;
+    margin-left: 250px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    word-wrap: normal;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#desc-p{
+    font-weight: bolder;
+    animation-name: reflect;
+}
